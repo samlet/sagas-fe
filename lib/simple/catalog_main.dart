@@ -27,6 +27,8 @@ import 'package:catalog/home/home.dart';
 import 'package:catalog/common/common.dart';
 
 import 'package:sagas_meta/sagas_bloc.dart';
+import "package:dart_amqp/dart_amqp.dart";
+
 
 class SimpleBlocDelegate extends BlocDelegate {
   @override
